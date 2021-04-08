@@ -2,7 +2,7 @@ img[alt="Pollution"] {
     border: 5px dashed red;
 }
 
-img[scr$=".jpg"] {
+img[src$=".jpg"] {
     margin-left: 50px;
 }
 
