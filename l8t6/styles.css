@@ -2,7 +2,7 @@
     box-sizing: content-box;
 }
 
-.rectangle {
+div {
     width: auto;
     max-width: 100%;
     max-height: 400px;
