@@ -22,4 +22,5 @@ div {
 
 .rectangle4 {
     background-color: pink;
+    box-sizing: content-box;
 }
