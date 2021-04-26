@@ -1,6 +1,4 @@
 div {
-    width: 1365px;
-    height: 762px;
     border: 2px solid black;
     margin: 50px;
     padding: 50px;
@@ -8,16 +6,24 @@ div {
 
 .rectangle1 {
     background-color: blue;
+    width: 924px;
+    height: 416px;
 }
 
 .rectangle2 {
     background-color: yellow;
+    width: 820px;
+    height: 312px;
 }
 
 .rectangle3 {
     background-color: green;
+    width: 716;
+    height: 208;
 }
 
 .rectangle4 {
     background-color: pink;
+    width: 612px;
+    height: 104px;
 }
