@@ -1,29 +1,21 @@
 div {
     border: 2px solid black;
     margin: 50px;
-    padding: 50px;
 }
 
 .rectangle1 {
     background-color: blue;
-    width: 367px;
-    height: 165px;
+    padding: 50px;
 }
 
 .rectangle2 {
     background-color: yellow;
-    width: 344px;
-    height: 131px;
 }
 
 .rectangle3 {
     background-color: green;
-    width: 338px;
-    height: 98px;
 }
 
 .rectangle4 {
     background-color: pink;
-    width: 335px;
-    height: 57px;
 }
