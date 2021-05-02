@@ -10,14 +10,14 @@
   width: 80%;
 }
 
-.news {
+.sidebar {
   background-color: grey;
   height: 500px;
   float: left;
   width: 20%;
 }
 
-footer {
+.footer {
   background-color: green;
   height: 50px;
   clear: left;
