@@ -1,6 +1,7 @@
 div {
   height: 200px;
-  width: auto
+  width: 200px;
+  float: left;
 }
 
 .block_red {
