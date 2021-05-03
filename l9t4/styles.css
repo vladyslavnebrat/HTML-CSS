@@ -2,6 +2,7 @@ div {
   height: 200px;
   width: 200px;
   float: left;
+  clear: bottom;
 }
 
 .block_red {
