@@ -1,26 +1,25 @@
 div {
   float: left;
   height: 200px;
-  width: auto;
-  clear: left;
-}
+  width: auto}
 
-.first {
+.block_red {
   background-color: red;
 }
 
-.second {
+.block_green {
   background-color: green;
 }
 
-.third {
+.block_blue {
   background-color: blue;
 }
 
-.fourth {
+.block_yellow {
   background-color: yellow;
 }
 
-.fifth {
+.block_black {
   background-color: black;
+  clear: left;
 }
