@@ -1,0 +1,26 @@
+div {
+  float: left;
+  height: 200px;
+  width: auto;
+  clear: left;
+}
+
+.first {
+  background-color: red;
+}
+
+.second {
+  background-color: green;
+}
+
+.third {
+  background-color: blue;
+}
+
+.fourth {
+  background-color: yellow;
+}
+
+.fifth {
+  background-color: black;
+}
