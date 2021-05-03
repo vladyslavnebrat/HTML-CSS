@@ -1,5 +1,4 @@
 div {
-  float: left;
   height: 200px;
   width: auto
 }
@@ -22,5 +21,4 @@ div {
 
 .block_black {
   background-color: black;
-  clear: left;
 }
