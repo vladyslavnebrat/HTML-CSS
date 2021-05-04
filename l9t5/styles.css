@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .header {
   height: 40px;
   position: fixed;
@@ -9,7 +13,6 @@
 .navigation {
   height: 40px;
   position: absolute;
-  box-sizing: border-box;
 }
 
 .nav-item {
