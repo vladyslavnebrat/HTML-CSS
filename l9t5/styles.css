@@ -30,7 +30,7 @@
   width: 200px;
   position: absolute;
   top: calc(50% - (40% / 2));
-  left: calc(40% - (10% / 2));
+  left: calc(50% - (40% / 2));
 }
 
 .ear_right {
