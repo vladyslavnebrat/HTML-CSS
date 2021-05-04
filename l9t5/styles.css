@@ -9,6 +9,7 @@
 .navigation {
   height: 40px;
   position: absolute;
+  box-sizing: border-box;
 }
 
 .nav-item {
