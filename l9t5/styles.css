@@ -7,11 +7,11 @@
 }
 
 .navigation {
+  height: 40px;
   position: absolute;
 }
 
 .nav-list {
-  height: 40px;
   line-height: 50%;
 }
 
