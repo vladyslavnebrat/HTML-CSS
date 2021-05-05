@@ -8,6 +8,7 @@
 
 .navigation {
   position: absolute;
+  height: 40px;
 }
 
 .nav-list {
