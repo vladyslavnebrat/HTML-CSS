@@ -7,13 +7,14 @@
 }
 
 .navigation {
-  position: absolute;
   height: 40px;
 }
 
 .nav-list {
-  line-height: 40px;
-}
+    margin: 0;
+    line-height: 40px;
+    list-style: none;
+  }
 
 .nav-item {
   float: left;
