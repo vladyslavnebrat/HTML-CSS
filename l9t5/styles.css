@@ -13,6 +13,8 @@
 .nav-list {
   height: 40px;
   line-height: 50%;
+  top: 50%;
+  bottom: 50%;
 }
 
 .nav-item {
