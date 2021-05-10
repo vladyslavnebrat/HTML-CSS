@@ -16,9 +16,11 @@
 }
 
 .navigation {
+    padding: 0;
     margin: 0;
     display: flex;
     list-style-type: none;
+    margin-left: 16px;
 }
 
 .navigation__item {
