@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .header {
     height: 40px;
     background-color: yellow;
