@@ -1,14 +1,10 @@
-* {
-    box-sizing: border-box;
-}
-
 .articles {
     display: flex;
 }
 
-.articles > div {
-    height: 100;
-    width: 150;
+div > div {
+    width: 150 px;
+    height: 100 px;
     background-color: beige;
     margin: 16px;
 }
