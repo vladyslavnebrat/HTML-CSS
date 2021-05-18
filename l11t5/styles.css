@@ -1,7 +1,7 @@
 .gallery {
     display: flex;
     cursor: all-scroll;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .thumb {
