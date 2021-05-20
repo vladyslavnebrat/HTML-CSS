@@ -16,6 +16,8 @@ div {
     background-color: coral;
     color: white;
     height: 200px;
+    text-transform: uppercase;
     text-align: center;
     line-height: 200px;
+
 }
