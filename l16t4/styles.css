@@ -10,7 +10,8 @@ html {
 .page {
     background-color: bisque;
     margin: auto;
-    padding: 100px;
+    padding: 150px;
+    box-sizing: content-box;
 }
 
 .login-form {
@@ -35,7 +36,6 @@ html {
     outline: none;
     border-radius: 4px;
     border: #808080;
-    padding: 4px;
 }
 
 .form-input:invalid {
