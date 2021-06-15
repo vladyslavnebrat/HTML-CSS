@@ -39,7 +39,7 @@ html {
 }
 
 .form-input:invalid {
-    border: #ff0000;
+    border: #ff0000 3px;
 }
 
 .form-label {
