@@ -1,0 +1,31 @@
+html {
+    font-family: monospace;
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.page {
+    background-color: bisque;
+    margin: auto;
+    padding: 150px;
+}
+
+.login-form {
+    background-color: aqua;
+    width: 300px;
+    padding: 16px;
+    margin: auto;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2)
+}
+
+.form-title {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.form-input {
+    margin-top: 8px;
+}
