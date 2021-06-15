@@ -10,7 +10,7 @@ html {
 .page {
     background-color: bisque;
     margin: auto;
-    padding: 150px;
+    padding: 100px;
 }
 
 .login-form {
@@ -42,16 +42,13 @@ html {
     border: #ff0000 3px;
 }
 
-.form-label {
-    margin-bottom: 4px;
-}
-
 .submit-button {
     height: 32px;
     margin-top: 16px;
     background-color: #ff7f50;
     color: #ffffff;
-    text-transform: uppercase;    
+    text-transform: uppercase;
+    border-radius: 4px;    
 }
 
 .form-control {
