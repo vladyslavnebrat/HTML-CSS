@@ -13,15 +13,142 @@
   </head>
 
   <body>
-    <main class="page">
+    <form class="page">
       <div class="input-block"> 
-      <input class="form-input"
+      <input class="form-input-html"
       type="html"
       id="html"
       name="primaryLanguage"
       placeholder="html"
       disabled>
       </div>
-    </main>
+      <div class="checkbox-unchecked">
+        <input class="checkbox-agree"
+        type="checkbox" unchecked
+        id="checkbox"
+        name="agree">
+      </div>
+      <div class="checkbox-readonly">
+        <input class="checkbox-like"
+        type="checkbox" checked
+        id="checkbox"
+        name="like"
+        readonly>
+      </div>
+      <div class="color">
+        <input class="favourite-color"
+        type="color"
+        id="color"
+        name="favourite-color"
+        value="#ff7f50">
+      </div>
+      <div class="date">
+        <input class="birthDate"
+        type="date"
+        id="date"
+        name="birthDate"
+        value="2021-01-02">
+      </div>
+      <div class="birth">
+        <input class="birthTime"
+        type="datetime-local"
+        id="date"
+        name="birthTime"
+        value="2024-10-04T13:02">
+      </div>
+      <div class="mail">
+        <input class="email"
+        type="email"
+        id="email"
+        placeholder="example@domain.com"
+        required>
+      </div>
+      <div class="profile-picture">
+        <input class="avatar"
+        type="file"
+        id="file"
+        name="avatar">
+      </div>
+      <div class="month">
+        <input class="startLearning"
+        type="month"
+        id="month"
+        name="startLearning"
+        value="2020-01">
+      </div>
+      <div class="number">
+        <input class="favouriteNumber"
+        type="number"
+        id="number"
+        name="favouriteNumber"
+        value="17">
+      </div>
+      <div class="story">
+        <textarea class="textarea" rows="5" cols="30" name="story" placeholder="A long time ago..."></textarea>
+      </div>
+      <div class="password">
+        <input class="secretpassword"
+        type="password"
+        id="password"
+        name="password"
+        value="secret">
+      </div>
+      <div class="choose-gender">
+        <input type="radio" id="html" name="html" value="html">
+        <label for="html">HTML</label>
+        <input type="radio" id="css" name="css" value="css">
+        <label for="css">CSS</label>
+        <input type="radio" id="javascript" name="javascript" value="javascript">
+        <label for="javascript">JavaScript</label>
+      </div>
+      <div class="learningProgress">
+        <input class="range"
+        type="range"
+        id="range"
+        name="learningProgress"
+        value="30">
+      </div>
+      <div class="select">
+        <select name="framework">
+          <option value="react">React</option>
+          <option value="jquery" selected>jQuery</option>
+          <option value="bootscrap">Bootscrap</option>
+        </select>
+      </div>
+      <div class="search">
+        <input type="search"
+        name="search"
+        id="search"
+        placeholder="Type first letters...">
+      </div>
+      <div class="lunchendtime">
+        <input class="lunchend"
+        type="time"
+        id="time"
+        name="lunchEnd"
+        value="14:01">
+      </div>
+      <div class="website">
+        <input class="url"
+        name="url"
+        id="url"
+        placeholder="https://website.com"
+        required>
+      </div>
+      <div class="week">
+        <input class="birthWeek"
+        type="week"
+        name="birthWeek"
+        id="birthWeek"
+        value="2021-W51">
+      </div>
+      <div class="submitbutton">
+        <input class="save"
+        type="submit"
+        id="Save"
+        name="save"
+        value="Save">
+      </div>
+    </form>
   </body>
 </html>
