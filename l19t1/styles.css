@@ -17,7 +17,7 @@
   transition-property: width;
   transition-duration: 2s;
   transition-property: opacity;
-  transition-duration: 1s;
+  transition-duration: 0.5s;
 }
 
 .rect:hover {
