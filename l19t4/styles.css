@@ -15,13 +15,13 @@
   border-radius: 10px;
   background-color: coral;
   margin: auto;
-  animation: ease 2s;
+  animation: drop 2s;
   animation-direction: normal;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
 }
 
-@keyframes ease {
+@keyframes drop {
   from {
     top: -100px;
   }
