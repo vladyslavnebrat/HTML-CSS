@@ -15,9 +15,11 @@
   border-radius: 10px;
   background-color: coral;
   margin: auto;
-  animation: drop 2s;
+  animation: drop;
+  animation-duration: 2s;
   animation-direction: normal;
   animation-fill-mode: forwards;
+  animation-timing-function: ease;
   animation-iteration-count: 1;
 }
 
