@@ -19,8 +19,6 @@
   animation-direction: normal;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
-  position: absolute;
-  left: calc(100vh - 100px);
 }
 
 @keyframes ease {
