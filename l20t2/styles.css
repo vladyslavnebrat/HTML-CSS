@@ -14,7 +14,7 @@ body {
   background-image: linear-gradient(45deg, #ffff00, #ff0000);
   color: #ffffff;
   margin: auto;
-  animation: jump 0.5s 0.4s, spin 0.5s, hide 1s 2s;
+  animation: jump 0.5s 0.4s, spin 0.5s, hide 1s 2s forwards;
 }
 
 @keyframes jump {
