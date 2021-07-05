@@ -4,12 +4,15 @@
 
 .container {
   display: flex;
-  width: 100vw;
   height: 100vh;
 }
 
 .spinner {
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .spinner-text {
