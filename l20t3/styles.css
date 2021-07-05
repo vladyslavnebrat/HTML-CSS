@@ -30,7 +30,7 @@
   border: 4px solid #d3d3d3;
   border-top: 4px solid #000000;
   border-radius: 100%;
-  animation: rotation 2s;
+  animation: spinning 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
@@ -47,20 +47,11 @@
   }
 }
 
-@keyframes rotation {
-  0% {
-    transform: rotate(0);
+@keyframes spinning {
+  from {
+    transform: rotate(0deg);
   }
-  25% {
-    transform: rotate(45deg);
-  }
-  50% {
-    transform: rotate(90deg);
-  }
-  75% {
-    transform: rotate(135deg);
-  }
-  100% {
-    transform: rotate(180deg);
+  to {
+    transform: rotate(360deg);
   }
 }
