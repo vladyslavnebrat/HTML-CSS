@@ -31,9 +31,8 @@ body {
 
 .footer {
   background-color: #e5e5e5;
+  text-align: center;
   padding: 0.5em;
-  display: flex;
-  justify-content: center;
 }
 
 .navigation {
@@ -42,8 +41,6 @@ body {
 }
 
 .section {
-  display: flex;
-  flex-direction: column;
   padding: 0.5em;
   width: 60%;
   font-size: 1.25em;
@@ -78,7 +75,7 @@ body {
   white-space: nowrap;
 }
 
-.units-list-item {
+.units-list {
   line-height: 1.75em;
 }
 
