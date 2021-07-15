@@ -115,6 +115,10 @@ img {
 }
 
 @media screen and (min-width: 900px) {
+  .main {
+    flex-direction: row;
+  }
+
   .navigation {
     width: 20%;
   }
