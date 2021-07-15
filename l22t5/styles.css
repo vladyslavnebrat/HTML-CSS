@@ -115,6 +115,16 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
+  .main {
+    flex-direction: row;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+  }
+
   .navigation {
     width: 20%;
   }
