@@ -114,7 +114,7 @@ img {
   }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1200px) {
   .navigation {
     width: 20%;
   }
