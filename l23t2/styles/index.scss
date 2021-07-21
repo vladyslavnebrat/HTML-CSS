@@ -14,19 +14,26 @@ body {
 
 .container {
     display: flex;
+
+    @media (orientation: landscape) {
+        flex-direction: row;
+    }
 }
 
 .container {
     @include for-medium {
         display: flex;
+        flex-direction: row;
     }
 
     @include for-medium-up {
         display: flex;
+        flex-direction: row;
     }
 
     @include for-large {
         display: flex;
+        flex-direction: row;
     }
 }
 
