@@ -18,6 +18,10 @@ body {
     @media (orientation: landscape) {
         flex-direction: row;
     }
+
+    @media (orientation: portrait) {
+        flex-direction: column;
+    }
 }
 
 .container {
