@@ -67,8 +67,6 @@ html {
     color: #000;
 }
 
-.menu__item_active:hover {
-    .submenu {
+.menu__item_active:hover .submenu {
         display: block;
     }
-}
