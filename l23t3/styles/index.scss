@@ -70,3 +70,7 @@ html {
 .menu__item_active:hover .submenu {
   display: block;
 }
+
+.menu__item_active > .menu__item-text {
+  color: #FFFF00;
+}

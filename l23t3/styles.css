@@ -68,4 +68,8 @@ html {
   display: block;
 }
 
+.menu__item_active > .menu__item-text {
+  color: #FFFF00;
+}
+
 /*# sourceMappingURL=styles.css.map */
