@@ -24,12 +24,12 @@ html {
   display: flex;
 }
 .menu__item {
-  height: 3em;
-  line-height: 3em;
-  padding-left: 8px;
-  padding-right: 8px;
-  display: block;
+  position: relative;
   display: inline-block;
+  display: block;
+  height: 3em;
+  padding: 0 8px;
+  line-height: 3em;
 }
 .menu__item__item-text {
   color: #fff;
