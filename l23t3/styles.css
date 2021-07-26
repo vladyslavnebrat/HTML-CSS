@@ -23,7 +23,6 @@ html {
   list-style-type: none;
   display: flex;
 }
-
 .menu__item {
   height: 3em;
   line-height: 3em;
@@ -32,24 +31,14 @@ html {
   display: block;
   display: inline-block;
 }
-
+.menu__item__item-text {
+  color: #fff;
+}
 .menu__item:hover {
   background-color: #9acd32;
-  color: #000;
+  color: #ffff00;
 }
-
-.menu__item_active {
-  height: 3em;
-  line-height: 3em;
-  padding-left: 8px;
-  padding-right: 8px;
-}
-
-.menu__item_active > .menu__item-text {
-  color: #FFFF00;
-}
-
-.submenu {
+.menu__item .submenu {
   margin: 0;
   padding: 0;
   background-color: #ff7f50;
@@ -57,12 +46,16 @@ html {
   color: #fff;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  display: block;
-  visibility: hidden;
+  display: none;
 }
-
-.submenu__item {
+.menu__item .submenu__item {
   list-style-type: none;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.menu_active {
+  height: 3em;
+  line-height: 3em;
   padding-left: 8px;
   padding-right: 8px;
 }
@@ -72,7 +65,7 @@ html {
 }
 
 .menu__item_active:hover .submenu {
-  visibility: visible;
+  display: block;
 }
 
 /*# sourceMappingURL=styles.css.map */
