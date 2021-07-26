@@ -19,6 +19,7 @@ html {
   color: #fff;
   list-style-type: none;
   display: flex;
+  position: absolute;
 
   &__item {
     position: relative;
@@ -46,6 +47,7 @@ html {
       box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
       z-index: 1;
       display: none;
+      position: relative;
 
       &__item {
         list-style-type: none;
