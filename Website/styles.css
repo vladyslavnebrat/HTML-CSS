@@ -104,6 +104,12 @@ html {
     flex-direction: column;
 }
 
+.footer__description {
+    line-height: 26px;
+    font-size: 18px;
+    width: 360px;
+}
+
 .footer-navigation {
     width: 1140px;
     margin: 0 auto;
