@@ -104,18 +104,64 @@ html {
     flex-direction: column;
 }
 
+.about-company {
+    margin-top: 44px;
+}
+
 .footer__description {
     line-height: 26px;
     font-size: 18px;
     width: 360px;
+    margin-top: 26px;
+    color: rgba(43, 41, 45, 0.6);
 }
 
 .footer-navigation {
     width: 1140px;
     margin: 0 auto;
     height: 338px;
-    padding: 44px;
+    display: flex;
+}
 
+.downloads {
+    margin-top: 25px;
+}
+
+.downloads__item {
+    margin-right: 10px;
+}
+
+.additional-navigation {
+    margin-top: 60px;
+    margin-left: auto;
+    display: flex;
+}
+
+.additional-navigation__column {
+    margin-right: 29px;
+}
+
+.nav-links {
+    width: 265px;
+}
+
+.nav-links__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    color: #2B292D;
+    margin: 0;
+}
+
+.nav-links__list {
+    list-style-type: none;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(43, 41, 45, 0.6);
+    padding: 0;
+    margin: 0;
+    margin-top: 18px;
 }
 
 .footer__line {
