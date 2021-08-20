@@ -1,15 +1,27 @@
 .headline {
-    position: relative;
-    width: 1140px;
-    margin: auto;
-    margin-top: 84px;
-    display: flex;
-    padding-bottom: 77px;
+    width: 100%;
 }
 
 .headline__content {
-    position: absolute;
+    margin: 35px 15px 15px 33px;
     z-index: 1;
+}
+
+@media screen and (min-width: 400px) {
+
+    .headline {
+        position: relative;
+        width: 1140px;
+        margin: auto;
+        margin-top: 84px;
+        display: flex;
+        padding-bottom: 77px;
+    }
+
+    .headline__content {
+        position: absolute;
+        z-index: 1;
+    }
 }
 
 .headline__banner {
