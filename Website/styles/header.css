@@ -36,7 +36,7 @@
     background-color: #f3c6bd;
     padding-top: 39px;
   }
-пк
+
   .header__menu-button {
     display: none;
   }
@@ -49,6 +49,7 @@
   }
 
   .header {
+    background-color: #f3c6bd;
     width: 1140px;
     height: 62px;
     margin: auto;
