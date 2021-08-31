@@ -35,5 +35,15 @@
         padding-top: 30px;
         padding-bottom: 106px;
         align-items: center;
+        flex-direction: row;
+    }
+
+    .customers__row {
+        flex: 1;
+        justify-content: space-around;
+    }
+
+    .customers__item {
+        border: none;
     }
 }
